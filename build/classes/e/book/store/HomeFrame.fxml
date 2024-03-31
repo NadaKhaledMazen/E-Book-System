@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" styleClass="mainFxmlClass" stylesheets="@homeframe.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="e.book.store.HomeFrameController">
+       <children>
+      <Button fx:id="AdminButton" alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="252.0" mnemonicParsing="false" onAction="#AdminButton" onMouseClicked="#AdminButton" prefHeight="67.0" prefWidth="238.0" styleClass="AdminButton" stylesheets="@homeframe.css" text="Admin" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="GuestButton" alignment="CENTER" contentDisplay="CENTER" layoutX="252.0" layoutY="371.0" mnemonicParsing="false" onAction="#GuestButton" onMouseClicked="#GuestButton" prefHeight="56.0" prefWidth="238.0" styleClass="GuestButton" stylesheets="@homeframe.css" text="Guest" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="25.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="113.0" layoutY="102.0" prefHeight="30.0" prefWidth="215.0" text="E-Book System" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

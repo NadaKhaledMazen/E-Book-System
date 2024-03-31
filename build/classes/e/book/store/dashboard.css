@@ -1,0 +1,6 @@
+.mainFxmlClass {
+-fx-background-image:url('BackImage.jpg');
+}
+.Buttons{
+      -fx-background-color: transparent;
+}

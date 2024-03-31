@@ -1,0 +1,16 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+-fx-background-image:url('BackImage.jpg');
+}
+.AdminButton{
+     
+      -fx-background-color: transparent;
+    
+}
+.GuestButton{
+      
+      -fx-background-color: transparent;
+}
